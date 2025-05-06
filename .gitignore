@@ -1,0 +1,61 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Ignore Docker-related files
+*.log
+docker-compose.override.yml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore S3 cache/temp files (if any)
+*.csv~
+*~
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore compiled SQLAlchemy/migration artifacts (if any)
+*.db
+*.sqlite3
+
+# Ignore Metabase export files (if any)
+*.pdf
+*.zip
+
+# Ignore outputs or temp data files
+/mydata/
+*.csv
+
+# Ignore test artifacts
+coverage/
+htmlcov/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignore GitHub token files (if you use gh CLI)
+.github-token
