@@ -7,9 +7,6 @@ Explore the interactive dashboard built with Metabase (local/private deployment)
 
 > [🧪 Metabase Dashboard Screenshot] '_Movie Analytics Dashboard – Insights from TMDb API_.pdf'
 
-(Metabase Dashboard Public link) http://localhost:3000/dashboard/2-movie-analytics-dashboard-insights-from-tmdb-api
-
----
 
 ## 🛠 Tech Stack
 
